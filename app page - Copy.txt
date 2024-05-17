@@ -1,0 +1,83 @@
+import { useState , useEffect } from "react";
+import Categories from "./Categories";
+import CategoriesDetails from "./CategoriesDetails";
+import Filter from "./Filter";
+import FilterByArea from "./FilterByArea";
+import FilterByMainIng from "./FilterByMainIng";
+import Home from "./Home";
+import Login from "./Login";
+import MealDetailsList from "./MealDetailsList";
+import MealsArea from "./MealsArea";
+import MealsIngredients from "./MealsIngredient";
+import NavBar from "./NavBar";
+import NotFound from "./NotFound";
+import Register from "./Register";
+import Search from "./Search";
+import SearchedRecipes from "./SearchedRecipes";
+import { BrowserRouter as Router , Switch , Route } from "react-router-dom/cjs/react-router-dom.min";
+
+
+function App() {
+  
+
+  let [UserId , setUserId] = useState(-2);
+
+  return (
+    <Router>
+      <div className="App">
+        <NavBar />
+        <div className="content"> {/*add if condition to user id */}
+          <Switch> 
+            <Route exact path="/">
+              <Login setUserId={setUserId} />
+            </Route>
+            <Route path="/register" >
+              <Register />
+            </Route>
+            {/* logging in routes */}
+              <>
+                <Route path="/filter/by-mainIng/:ingName">
+                  {UserId != -2  && <MealsIngredients />}
+                </Route>
+                <Route path="/filter/by-area/:areaName">
+                  {UserId != -2  && <MealsArea />}
+                </Route>
+                <Route path="/filter/by-area">
+                  {UserId != -2  && <FilterByArea />}
+                </Route>
+                <Route path="/filter/by-mainIng">
+                  {UserId != -2  && <FilterByMainIng />}
+                </Route>
+                <Route path="/filter">
+                  {UserId != -2  && <Filter />}
+                </Route>
+                <Route path="/categories/details/:id">
+                  {UserId != -2  &&  <MealDetailsList />}
+                </Route>
+                <Route path="/categories/:name">
+                  {UserId != -2  && <CategoriesDetails />}
+                </Route>
+                <Route path="/categories">
+                  {UserId != -2  && <Categories />}
+                </Route>
+                <Route path="/search/:searchedMeal" >
+                  {UserId != -2  && <SearchedRecipes />}
+                </Route>
+                <Route path="/search">
+                  {UserId != -2  && <Search />}
+                </Route>
+                <Route path="/home" >
+                  {UserId != -2 && <Home />}
+                </Route>
+              </>
+            <Route path='/*'>
+              <NotFound />
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default App;

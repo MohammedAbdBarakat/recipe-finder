@@ -1,0 +1,247 @@
+{
+  "user": [
+    {
+      "id": "0",
+      "FirstName": "admin",
+      "LastName": "admin",
+      "userName": "admin",
+      "password": "admin",
+      "savedMeals": [
+        {
+          "mealId": "52794",
+          "mealName": "Vegan Chocolate Cake",
+          "mealImg": "https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg"
+        },
+        {
+          "mealId": "52829",
+          "mealName": "Grilled Mac and Cheese Sandwich",
+          "mealImg": "https://www.themealdb.com/images/media/meals/xutquv1505330523.jpg"
+        },
+        {
+          "mealId": "53050",
+          "mealName": "Ayam Percik",
+          "mealImg": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg"
+        },
+        {
+          "mealId": "52982",
+          "mealName": "Spaghetti alla Carbonara",
+          "mealImg": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg"
+        },
+        {
+          "mealId": "52992",
+          "mealName": "Soy-Glazed Meatloaves with Wasabi Mashed Potatoes & Roasted Carrots",
+          "mealImg": "https://www.themealdb.com/images/media/meals/o2wb6p1581005243.jpg"
+        },
+        {
+          "mealId": "52979",
+          "mealName": "Bitterballen (Dutch meatballs)",
+          "mealImg": "https://www.themealdb.com/images/media/meals/lhqev81565090111.jpg"
+        },
+        {
+          "mealId": "53059",
+          "mealName": "Mushroom soup with buckwheat",
+          "mealImg": "https://www.themealdb.com/images/media/meals/1ngcbf1628770793.jpg"
+        },
+        {
+          "mealId": "53070",
+          "mealName": "Beef Caldereta",
+          "mealImg": "https://www.themealdb.com/images/media/meals/41cxjh1683207682.jpg"
+        },
+        {
+          "mealId": "52844",
+          "mealName": "Lasagne",
+          "mealImg": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg"
+        },
+        {
+          "mealId": "52768",
+          "mealName": "Apple Frangipan Tart",
+          "mealImg": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"
+        }
+      ]
+    },
+    {
+      "id": "3407",
+      "firstName": "nizar",
+      "lastName": "barakat",
+      "userName": "grayman",
+      "password": "111",
+      "savedMeals": [
+        {
+          "mealName": "Bitterballen (Dutch meatballs)",
+          "mealImg": "https://www.themealdb.com/images/media/meals/lhqev81565090111.jpg"
+        },
+        {
+          "mealId": "52812",
+          "mealName": "Beef Brisket Pot Roast",
+          "mealImg": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg"
+        },
+        {
+          "mealId": "52770",
+          "mealName": "Spaghetti Bolognese",
+          "mealImg": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
+        },
+        {
+          "mealId": "52770",
+          "mealName": "Spaghetti Bolognese",
+          "mealImg": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
+        }
+      ]
+    },
+    {
+      "id": "23f0",
+      "firstName": "sami",
+      "lastName": "barakat",
+      "userName": "samii",
+      "password": "123333",
+      "savedMeals": []
+    },
+    {
+      "id": "db15",
+      "firstName": "mohammed",
+      "lastName": "bar",
+      "userName": "8y6",
+      "password": "777777",
+      "savedMeals": [
+        {
+          "mealId": "52978",
+          "mealName": "Kumpir",
+          "mealImg": "https://www.themealdb.com/images/media/meals/mlchx21564916997.jpg"
+        },
+        {
+          "mealId": "52978",
+          "mealName": "Kumpir",
+          "mealImg": "https://www.themealdb.com/images/media/meals/mlchx21564916997.jpg"
+        }
+      ]
+    },
+    {
+      "id": "f193",
+      "firstName": "nizar",
+      "lastName": "barakat",
+      "userName": "sadss",
+      "password": "assdasdassd",
+      "savedMeals": []
+    },
+    {
+      "id": "f480",
+      "firstName": "nizar",
+      "lastName": "barakat",
+      "userName": "nizar77",
+      "password": "112233",
+      "savedMeals": []
+    },
+    {
+      "id": "939e",
+      "firstName": "eman",
+      "lastName": "aljrd",
+      "userName": "eman11",
+      "password": "112233",
+      "savedMeals": []
+    },
+    {
+      "id": "6fb1",
+      "firstName": "suhail",
+      "lastName": "haddad",
+      "userName": "suhail",
+      "password": "112233",
+      "savedMeals": []
+    },
+    {
+      "id": "c2f3",
+      "firstName": "jaafar",
+      "lastName": "aldoj",
+      "userName": "jaafar111",
+      "password": "112233",
+      "savedMeals": [
+        {
+          "mealId": "53060",
+          "mealName": "Burek",
+          "mealImg": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg"
+        },
+        {
+          "mealId": "53065",
+          "mealName": "Sushi",
+          "mealImg": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1618",
+      "firstName": "abdullah",
+      "lastName": "alsalem",
+      "userName": "abd",
+      "password": "112233",
+      "savedMeals": [
+        {
+          "mealId": "52927",
+          "mealName": "Montreal Smoked Meat",
+          "mealImg": "https://www.themealdb.com/images/media/meals/uttupv1511815050.jpg"
+        },
+        {
+          "mealId": "52770",
+          "mealName": "Spaghetti Bolognese",
+          "mealImg": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
+        },
+        {
+          "mealId": "53010",
+          "mealName": "Lamb Tzatziki Burgers",
+          "mealImg": "https://www.themealdb.com/images/media/meals/k420tj1585565244.jpg"
+        },
+        {
+          "mealId": "52770",
+          "mealName": "Spaghetti Bolognese",
+          "mealImg": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg"
+        }
+      ]
+    },
+    {
+      "id": "8232",
+      "firstName": "fatoma",
+      "lastName": "saibaa",
+      "userName": "fatoma11",
+      "password": "112233",
+      "savedMeals": [
+        {
+          "mealId": "53025",
+          "mealName": "Ful Medames",
+          "mealImg": "https://www.themealdb.com/images/media/meals/lvn2d51598732465.jpg"
+        },
+        {
+          "mealId": "52768",
+          "mealName": "Apple Frangipan Tart",
+          "mealImg": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2f84",
+      "firstName": "moh",
+      "lastName": "werwewerew",
+      "userName": "rwerw",
+      "password": "112233",
+      "savedMeals": []
+    },
+    {
+      "id": "78de",
+      "firstName": "mohammed",
+      "lastName": "barakat",
+      "userName": "mhd77",
+      "password": "112233",
+      "savedMeals": [
+        {
+          "mealId": "52893",
+          "mealName": "Apple & Blackberry Crumble",
+          "mealImg": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2a89",
+      "firstName": "suhail",
+      "lastName": "alhaddad",
+      "userName": "suhail797",
+      "password": "112233",
+      "savedMeals": []
+    }
+  ]
+}
