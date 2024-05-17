@@ -80,7 +80,7 @@ const Login = ({setUserID , setnewAccount}) => {
                             id="password" placeholder="password"
                             required value={password}
                             onChange={(e) => setPassword(e.target.value)}/>
-                        {!isPending && <button className="log-button" >Login a7a</button>}
+                        {!isPending && <button className="log-button" >Login</button>}
                         {isPending && <button className="log-button" disabled>Confirming</button>}
                     </form>
             <a className="log1-button" onClick={()=>{setnewAccount(true)}}>You don't have an account? Register now!</a>
