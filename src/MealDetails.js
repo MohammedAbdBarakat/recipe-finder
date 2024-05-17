@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const MealDetails = ({recipes , userID }) => {
     const [existed , setExisted] = useState(false);
-    const {data : user } = useFetch(`http://localhost:8888/user/${userID}`);
+    const {data : user } = useFetch(`https://raw.githubusercontent.com/MohammedAbdBarakat/recipe-finder/main/Data/user.json/${userID}`);
 
     useEffect(() => {
         if (user){
@@ -36,7 +36,7 @@ const MealDetails = ({recipes , userID }) => {
                     mealImg:recipe.strMealThumb });
             })
     
-            fetch(`http://localhost:8888/user/${userID}` , {
+            fetch(`https://raw.githubusercontent.com/MohammedAbdBarakat/recipe-finder/main/Data/user.json/${userID}` , {
                 method:"PUT",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(user)

@@ -14,7 +14,7 @@ const Register = ({setnewAccount}) => {
     const [isPending, setIsPending] = useState(false);
     const history = useHistory();
 
-    const { data: users } = useFetch("http://localhost:8888/user");
+    const { data: users } = useFetch("https://raw.githubusercontent.com/MohammedAbdBarakat/recipe-finder/main/Data/user.json");
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -35,7 +35,7 @@ const Register = ({setnewAccount}) => {
         else {
             setIsPending(true);
             setTimeout(() => {
-                fetch("http://localhost:8888/user", {
+                fetch("https://raw.githubusercontent.com/MohammedAbdBarakat/recipe-finder/main/Data/user.json", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(user),

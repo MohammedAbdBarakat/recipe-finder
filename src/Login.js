@@ -14,7 +14,7 @@ const Login = ({setUserID , setnewAccount}) => {
     const [isPending,setIsPending] = useState(false);
 
     const [Done, setDone]=useState(false);
-    const {data : users } = useFetch('http://localhost:8888/user');
+    const {data : users } = useFetch('https://raw.githubusercontent.com/MohammedAbdBarakat/recipe-finder/main/Data/user.json');
 
 
     useEffect(() => {
