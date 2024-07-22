@@ -56,6 +56,21 @@
           "mealId": "52768",
           "mealName": "Apple Frangipan Tart",
           "mealImg": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"
+        },
+        {
+          "mealId": "52855",
+          "mealName": "Banana Pancakes",
+          "mealImg": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg"
+        },
+        {
+          "mealId": "52855",
+          "mealName": "Banana Pancakes",
+          "mealImg": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg"
+        },
+        {
+          "mealId": "52893",
+          "mealName": "Apple & Blackberry Crumble",
+          "mealImg": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg"
         }
       ]
     },
@@ -241,6 +256,38 @@
       "lastName": "alhaddad",
       "userName": "suhail797",
       "password": "112233",
+      "savedMeals": []
+    },
+    {
+      "id": "67fb",
+      "firstName": "raed",
+      "lastName": "hamed",
+      "userName": "raed",
+      "password": "12345678",
+      "savedMeals": [
+        {
+          "mealId": "52845",
+          "mealName": "Turkey Meatloaf",
+          "mealImg": "https://www.themealdb.com/images/media/meals/ypuxtw1511297463.jpg"
+        },
+        {
+          "mealId": "52844",
+          "mealName": "Lasagne",
+          "mealImg": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg"
+        },
+        {
+          "mealId": "52923",
+          "mealName": "Canadian Butter Tarts",
+          "mealImg": "https://www.themealdb.com/images/media/meals/wpputp1511812960.jpg"
+        }
+      ]
+    },
+    {
+      "id": "e16d",
+      "firstName": "admin",
+      "lastName": "admin",
+      "userName": "asdasd",
+      "password": "admin123123",
       "savedMeals": []
     }
   ]

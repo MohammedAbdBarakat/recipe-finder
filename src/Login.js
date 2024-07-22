@@ -14,7 +14,7 @@ const Login = ({setUserID , setnewAccount}) => {
     const [isPending,setIsPending] = useState(false);
 
     const [Done, setDone]=useState(false);
-    const {data : users } = useFetch('https://raw.githubusercontent.com/MohammedAbdBarakat/recipe-finder/main/Data/user.json');
+    const {data : users } = useFetch('http://localhost:8888/user');
 
 
     useEffect(() => {
@@ -66,7 +66,7 @@ const Login = ({setUserID , setnewAccount}) => {
         <>
         {!Done &&<>
             <div className="log-container">
-                <h2 className="login-phrase">Login !!!!!</h2>
+                <h2 className="login-phrase">Login</h2>
                     <form onSubmit={handleSubmit}>
                         <input 
                             type="text" name="userName"
